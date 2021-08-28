@@ -1,17 +1,15 @@
 #!/usr/bin/env node
 
-const colors = require('colors');
-const greet = require("../lib/greet");
+const program = require('commander');
 
-// print random greeting
-console.log(
-    // wraps text with rainbow color formatting
-    colors.rainbow(
-        // returns the random greeting text
-        greet.greetRandom()
-    ),
-    colors.rainbow(
-        // returns the random greeting text
-        greet.greet('en')
-    )
-);
+const { createNewProject } = require('../lib/project');
+
+program
+    .command('create')
+    .option('-n, --name <project-name>', 'Name of the project', 'astrophel-project')
+    .description('Create new astrophel project')
+    .action((options) => {
+        createNewProject(options);
+    });
+
+program.parse(process.argv);
