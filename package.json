@@ -16,7 +16,6 @@
   "dependencies": {
     "colors": "^1.4.0",
     "commander": "^8.1.0",
-    "inquirer": "^8.1.2",
-    "lodash": "^4.17.21"
+    "inquirer": "^8.1.2"
   }
 }
