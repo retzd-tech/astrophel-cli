@@ -2,7 +2,7 @@
 
 const program = require('commander');
 
-const { createNewProject } = require('../lib/project');
+const { createNewProject } = require('../lib/services/projectService');
 
 program
     .command('create')

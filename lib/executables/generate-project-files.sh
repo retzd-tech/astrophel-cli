@@ -1,5 +1,5 @@
 installedModulePath=$(npm root -g)/astropheljs
-starterProjectPath=$installedModulePath/lib/starter/$starterType/
+starterProjectPath=$installedModulePath/lib/starters/$starterType/
 
 mkdir $projectName
 cd $projectName
