@@ -1,17 +1,13 @@
 {
-  "name": "astropheljs",
-  "version": "0.0.1",
+  "name": "astrophel-cli",
+  "version": "0.0.1-alpha.1",
   "description": "",
-  "main": "./lib/greet.js",
   "bin": {
-    "astrophel": "./bin/index.js"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "astrophel": "^0.0.2-1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "preferGlobal": true,
   "dependencies": {
     "colors": "^1.4.0",
