@@ -1,7 +1,7 @@
 {
   "name": "astrophel-cli",
-  "version": "0.0.1-alpha.1",
-  "description": "",
+  "version": "0.0.1-alpha.3",
+  "description": "Astrophel Js CLI",
   "bin": {
     "astrophel": "^0.0.2-1"
   },
