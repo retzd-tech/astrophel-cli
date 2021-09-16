@@ -12,4 +12,11 @@ program
         createNewProject(options);
     });
 
+program
+    .command('start')
+    .description('Run astrophel project')
+    .action((options) => {
+        createNewProject(options);
+    });
+
 program.parse(process.argv);
