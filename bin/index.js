@@ -2,7 +2,7 @@
 
 const program = require('commander');
 
-const { createNewProject } = require('../lib/services/projectService');
+const { createNewProject, runProject } = require('../lib/services/projectService');
 
 program
     .command('create')
@@ -16,7 +16,7 @@ program
     .command('start')
     .description('Run astrophel project')
     .action((options) => {
-        createNewProject(options);
+        runProject(options);
     });
 
 program.parse(process.argv);
