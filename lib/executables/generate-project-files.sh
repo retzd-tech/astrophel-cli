@@ -1,4 +1,4 @@
-installedModulePath=$(npm root -g)/astropheljs
+installedModulePath=$(npm root -g)/astrophel-cli
 starterProjectPath=$installedModulePath/lib/starters/$starterType/
 
 mkdir $projectName
